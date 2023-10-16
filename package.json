@@ -1,0 +1,16 @@
+{
+  "name": "tronp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ayus",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^27.0.0"
+  }
+}
